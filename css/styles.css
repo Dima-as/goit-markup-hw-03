@@ -54,12 +54,11 @@ img {
 }
 
 .page-header {
-   padding-bottom: 45px;
+	border-bottom:  1px solid #ECECEC;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
-.border {
-   border-bottom: 1px solid #ECECEC;
-}
 
 /* logo */
 .logo {
@@ -99,8 +98,8 @@ img {
 }
 .site-nav .link {
    display: block;
-   padding-top: 20px;
-   padding-bottom: 20px;
+   /* padding-top: 20px;
+   padding-bottom: 20px; */
    
 	text-decoration: none;
    color: var(--primary-text-color);
@@ -125,8 +124,8 @@ img {
 }
 .contacts-data  {
    display: block;
-   padding-top: 20px;
-   padding-bottom: 20px;
+   /* padding-top: 20px;
+   padding-bottom: 20px; */
 
 
 	font-weight: 500;
@@ -145,10 +144,12 @@ img {
 }
 
 
-/* hero */
+					/*=================== HERO ================= */
 .hero {
    text-align: center;
-   background-color: #2F303A; 
+   background-color: #2F303A;
+	padding-top: 200px;
+	padding-bottom: 200px;
    
 }
 .hero-title {
@@ -170,6 +171,8 @@ img {
    border: 1px solid transparent;
 }
 .button.secondary {
+	padding: 6px 22px;
+
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
@@ -206,6 +209,7 @@ img {
 
                         /*=============== FEATURES =============== */
 .section {
+	padding-top: 94px;
    padding-bottom: 94px;
 }
 
@@ -238,6 +242,10 @@ img {
 }
 
                         /* ================= WORK ================= */
+.work {
+	padding-top: 0;
+}
+								
 .work-title {
    margin-bottom: 50px;
 
@@ -256,7 +264,7 @@ img {
                         /* ==================== TEAM ====================  */
 .team {
    background-color: #F5F4FA;
-   padding-top: 94px;
+   /* padding-top: 94px; */
 }
 
 .team-title {
@@ -341,18 +349,19 @@ img {
 	color: var(--Accent);
 	
 }
-                       /* =================FILTER PORTFOLIO =============== */
-.filter {
-   padding-top: 47px;
+.footer-item:not(:last-child) {
+	margin-bottom: 9px;
 }
+                       /* =================FILTER PORTFOLIO =============== */
 .filter-list {
    display: flex;
    justify-content: center;
+	margin-bottom: 50px;
 }
 
 .filter-item {
    margin-right: 8px;
-   margin-bottom: 50px;
+   
 }
                      /* =================== CARDS PORTFOLIO ================= */
 .cards {
